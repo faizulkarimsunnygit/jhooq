@@ -2,7 +2,7 @@ node {
 
     stage("Git Clone"){
 
-        git credentialsId: 'GITHUB_CRED', url: 'https://github.com/rahulwagh/spring-boot-docker.git'
+        git credentialsId: 'GITHUB_CRED', url: 'https://github.com/faizulkarimsunnygit/jhooq.git'
     }
 
      stage('Gradle Build') {
